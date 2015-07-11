@@ -1,0 +1,248 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CEE1F021B513C6E009B6043 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEE1F011B513C6E009B6043 /* main.m */; };
+		9CEE1F0A1B513CA9009B6043 /* NSString+Union.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEE1F091B513CA9009B6043 /* NSString+Union.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9CEE1EFC1B513C6E009B6043 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9CEE1EFE1B513C6E009B6043 /* NSStringUnion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSStringUnion; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CEE1F011B513C6E009B6043 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CEE1F081B513CA9009B6043 /* NSString+Union.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Union.h"; path = "NSStringUnion/NSString+Union.h"; sourceTree = "<group>"; };
+		9CEE1F091B513CA9009B6043 /* NSString+Union.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Union.m"; path = "NSStringUnion/NSString+Union.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CEE1EFB1B513C6E009B6043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CEE1EF51B513C6E009B6043 = {
+			isa = PBXGroup;
+			children = (
+				9CEE1F081B513CA9009B6043 /* NSString+Union.h */,
+				9CEE1F091B513CA9009B6043 /* NSString+Union.m */,
+				9CEE1F001B513C6E009B6043 /* NSStringUnion */,
+				9CEE1EFF1B513C6E009B6043 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CEE1EFF1B513C6E009B6043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CEE1EFE1B513C6E009B6043 /* NSStringUnion */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CEE1F001B513C6E009B6043 /* NSStringUnion */ = {
+			isa = PBXGroup;
+			children = (
+				9CEE1F011B513C6E009B6043 /* main.m */,
+			);
+			path = NSStringUnion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CEE1EFD1B513C6E009B6043 /* NSStringUnion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CEE1F051B513C6E009B6043 /* Build configuration list for PBXNativeTarget "NSStringUnion" */;
+			buildPhases = (
+				9CEE1EFA1B513C6E009B6043 /* Sources */,
+				9CEE1EFB1B513C6E009B6043 /* Frameworks */,
+				9CEE1EFC1B513C6E009B6043 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSStringUnion;
+			productName = NSStringUnion;
+			productReference = 9CEE1EFE1B513C6E009B6043 /* NSStringUnion */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CEE1EF61B513C6E009B6043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = kingkong999yhirose;
+				TargetAttributes = {
+					9CEE1EFD1B513C6E009B6043 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 9CEE1EF91B513C6E009B6043 /* Build configuration list for PBXProject "NSStringUnion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9CEE1EF51B513C6E009B6043;
+			productRefGroup = 9CEE1EFF1B513C6E009B6043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CEE1EFD1B513C6E009B6043 /* NSStringUnion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CEE1EFA1B513C6E009B6043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CEE1F021B513C6E009B6043 /* main.m in Sources */,
+				9CEE1F0A1B513CA9009B6043 /* NSString+Union.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9CEE1F031B513C6E009B6043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9CEE1F041B513C6E009B6043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9CEE1F061B513C6E009B6043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9CEE1F071B513C6E009B6043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CEE1EF91B513C6E009B6043 /* Build configuration list for PBXProject "NSStringUnion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CEE1F031B513C6E009B6043 /* Debug */,
+				9CEE1F041B513C6E009B6043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CEE1F051B513C6E009B6043 /* Build configuration list for PBXNativeTarget "NSStringUnion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CEE1F061B513C6E009B6043 /* Debug */,
+				9CEE1F071B513C6E009B6043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CEE1EF61B513C6E009B6043 /* Project object */;
+}
